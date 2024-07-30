@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    width: 100%;
+    background: black;
+}
+
+button {
+    border-radius: 50%;
+    padding: 1%;
+    color: #FFFAF0;
+    font-size: 90%;
+    background: red;
+    transition: 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+button:hover {
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 5px white;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    button {
+        font-size: 85%;
+        padding: 2%;
+    }
+}
+
+@media (max-width: 768px) {
+    button {
+        font-size: 80%;
+        padding: 3%;
+    }
+}
+
+@media (max-width: 480px) {
+    button {
+        font-size: 75%;
+        padding: 4%;
+    }
+}

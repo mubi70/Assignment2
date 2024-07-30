@@ -1,0 +1,106 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+    width: 100%;
+    background: black;
+}
+
+button {
+    border-radius: 50%;
+    padding: 1%;
+    color: #FFFAF0;
+    font-size: 90%;
+    background: red;
+    transition: 0.5s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+button:hover {
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 5px white;
+}
+
+* {
+    background: black;
+}
+
+table {
+    color: #FFFAF0;
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+* p {
+    color: #FFFAF0;
+}
+
+* ul {
+    color: #FFFAF0;
+}
+
+h2 {
+    color: red;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    button {
+        font-size: 85%;
+        padding: 2%;
+    }
+}
+
+@media (max-width: 768px) {
+    button {
+        font-size: 80%;
+        padding: 3%;
+    }
+
+    table {
+        font-size: 90%;
+    }
+
+    a {
+        font-size: 90%;
+    }
+
+    * p {
+        font-size: 90%;
+    }
+
+    * ul {
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    button {
+        font-size: 75%;
+        padding: 4%;
+    }
+
+    table {
+        font-size: 80%;
+    }
+
+    a {
+        font-size: 80%;
+    }
+
+    * p {
+        font-size: 80%;
+    }
+
+    * ul {
+        font-size: 80%;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}

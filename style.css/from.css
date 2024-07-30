@@ -1,0 +1,111 @@
+body {
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+    background: black;
+}
+
+h1, h2 {
+    color: red;
+}
+
+* {
+    background: black;
+}
+
+* span {
+    color: #FFFAF0;
+}
+
+* b {
+    color: #FFFAF0;
+}
+
+* input {
+    color: white;
+}
+
+div.registration {
+    color: red;
+}
+
+button.xyz {
+    border-radius: 50%;
+    padding: 1%;
+    font-size: 100%;
+    background: red;
+    color: #FFFAF0;
+}
+
+div {
+    color: #FFFAF0;
+}
+
+div.ab {
+    color: #FFFAF0;
+}
+
+button {
+    border-radius: 50%;
+    padding: 1%;
+    color: #FFFAF0;
+    font-size: 90%;
+    background: red;
+    transition: 0.5s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+button:hover {
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 5px white;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    button,
+    button.xyz {
+        font-size: 85%;
+        padding: 2%;
+    }
+}
+
+@media (max-width: 768px) {
+    button,
+    button.xyz {
+        font-size: 80%;
+        padding: 3%;
+    }
+
+    h1, h2 {
+        font-size: 1.5rem;
+    }
+
+    * span,
+    * b,
+    * input,
+    div,
+    div.ab {
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    button,
+    button.xyz {
+        font-size: 75%;
+        padding: 4%;
+    }
+
+    h1, h2 {
+        font-size: 1.2rem;
+    }
+
+    * span,
+    * b,
+    * input,
+    div,
+    div.ab {
+        font-size: 80%;
+    }
+}
